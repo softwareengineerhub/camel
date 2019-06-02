@@ -17,27 +17,22 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SimpleCamelRoute extends RouteBuilder {
-    
+
     @Autowired
     private Environment environment;
-    
+
     @PostConstruct
-    public void init(){
-        System.out.println("init()");                
+    public void init() {
+        System.out.println("init()");
     }
 
     @Override
-    public void configure() throws Exception {  
-        System.out.println("configure()");                
-           /*from("timer:hello?period=10s")
+    public void configure() throws Exception {
+        System.out.println("configure()");
+        from("timer:hello?period=10s")
                 .log("Timer Invoked and the body ${body}")
                 .pollEnrich("file:data/input?delete=true&readLock=none")
-                .to("file:data/output");*/
-           
-           from("{{startRoute}}")
-                .log("Timer Invoked and the body " +environment.getProperty("message"))
-                .pollEnrich("{{fromRoute}}")
-                .to("{{toRoute1}}");           
+                .to("file:data/output");
     }
 
 }
