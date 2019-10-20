@@ -1,0 +1,15 @@
+https://aboullaite.me/cdi-20-java-se/
+BEFORE CDI2.0 we had to create beans.xml
+
+
+
+----------------------ANY-----------------------
+The @Any qualifier allows an injection point to refer to all beans or all events of a certain bean type.
+
+@Inject @Any qualifier allows an injection point to refer to all beans or all events of a certain bean type.
+
+@Inject @Any Instance<PaymentProcessor> anyPaymentProcessor;
+
+@Inject @Any Event<User> anyUserEvent;
+
+@Inject @Delegate @Any Logger logger;
