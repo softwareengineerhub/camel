@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp:MCPMsgEnvelope xmlns="http://www.markit.com/processing/mcp/core/normalised/trade/events" xmlns:mcp="http://www.markit.com/processing/mcp/core/normalised/messaging/envelope">
+   <mcp:header>
+      <mcp:meta>
+         <mcp:rawFpMLMessageId>rawFpMLMessageIdVal</mcp:rawFpMLMessageId>
+         <mcp:fpmlMessageCreationTimestamp>2019-07-07T17:05:45.678Z</mcp:fpmlMessageCreationTimestamp>
+      </mcp:meta>
+   </mcp:header>
+   <mcp:body>
+      <eventSide>
+         <clearingDetail>
+            <clearingStatus>clearingStatusVal</clearingStatus>
+         </clearingDetail>
+      </eventSide>
+   </mcp:body>
+</mcp:MCPMsgEnvelope>

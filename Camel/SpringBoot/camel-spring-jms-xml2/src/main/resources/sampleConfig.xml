@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+    <bean id="testBean" class="com.javacodegeeks.camel.TestBean"/>   
+    
+    
+    <bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <!--<property name="brokerURL" value="vm://localhost?broker.persistent=false" />-->
+    </bean>
+    
+        
+    
+    <!--<bean id="orderDefaultJmsListenerContainerFactory" class="org.springframework.jms.config.DefaultMessageListenerContainer"> 
+        <property name="connectionFactory" ref="jmsConnectionFactory"/>     
+        <property name="concurrency" value="3-10"/>     
+    </bean>    -->
+    
+    <bean id="orderDefaultJmsListenerContainerFactory" class="org.springframework.jms.config.DefaultJmsListenerContainerFactory"> 
+        <property name="connectionFactory" ref="jmsConnectionFactory"/>     
+        <property name="concurrency" value="3-10"/>     
+    </bean>
+    
+    
+    <!--
+    @Bean
+    public DefaultJmsListenerContainerFactory orderDefaultJmsListenerContainerFactory() {
+        DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
+        factory.setConnectionFactory(receiverActiveMQConnectionFactory());
+        factory.setConcurrency("3-10");
+        return factory;
+    }
+    -->
+    
+    
+    
+    <!--
+    <bean id="start" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="start"></constructor-arg>
+    </bean>-->
+    
+    
+    <bean id="pooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory"
+          init-method="start" destroy-method="stop">
+        <property name="maxConnections" value="8" />
+        <property name="connectionFactory" ref="jmsConnectionFactory" />
+    </bean>
+    
+    
+    <!-- <bean id="activemqssl" class="org.apache.activemq.camel.component.ActiveMQComponent">
+        <property name="configuration" ref="jmsConfig"/>
+    </bean>-->
+    
+    
+ 
+    <bean id="activeMqRouteBuilder" class="com.javacodegeeks.camel.routes.ActiveMqRouteBuilder"/>
+     
+    <camelContext xmlns="http://camel.apache.org/schema/spring"> 
+        <routeBuilder ref="activeMqRouteBuilder"/>         
+    </camelContext>
+ 
+</beans>

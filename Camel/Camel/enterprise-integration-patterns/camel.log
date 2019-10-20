@@ -1,0 +1,1151 @@
+2019-05-29 16:14:45,278 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:14:45,280 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:14:45,397 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:14:45,478 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:14:45,481 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:14:45,481 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:14:45,516 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input?noop=true
+2019-05-29 16:14:45,516 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:14:45,526 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.240 seconds
+2019-05-29 16:14:46,531 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135685108-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.html, CamelFileLastModified=1559135395297, CamelFileLength=446, CamelFileName=data.html, CamelFileNameConsumed=data.html, CamelFileNameOnly=data.html, CamelFileParent=input, CamelFilePath=input\data.html, CamelFileRelativePath=data.html}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.html]]]
+2019-05-29 16:14:46,548 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135685108-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.json, CamelFileLastModified=1559135454054, CamelFileLength=31, CamelFileName=data.json, CamelFileNameConsumed=data.json, CamelFileNameOnly=data.json, CamelFileParent=input, CamelFilePath=input\data.json, CamelFileRelativePath=data.json}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.json]]]
+2019-05-29 16:14:46,551 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135685108-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.txt, CamelFileLastModified=1559135406267, CamelFileLength=1, CamelFileName=data.txt, CamelFileNameConsumed=data.txt, CamelFileNameOnly=data.txt, CamelFileParent=input, CamelFilePath=input\data.txt, CamelFileRelativePath=data.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.txt]]]
+2019-05-29 16:14:50,526 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:14:50,527 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:14:50,529 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-05-29 16:14:50,530 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:14:50,541 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.265 seconds
+2019-05-29 16:14:50,542 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-05-29 16:15:31,560 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:15:31,562 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:15:31,680 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:15:31,761 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:15:31,764 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:15:31,764 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:15:31,800 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input?noop=true
+2019-05-29 16:15:31,800 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:15:31,802 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.242 seconds
+2019-05-29 16:15:32,812 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135731396-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.html, CamelFileLastModified=1559135395297, CamelFileLength=446, CamelFileName=data.html, CamelFileNameConsumed=data.html, CamelFileNameOnly=data.html, CamelFileParent=input, CamelFilePath=input\data.html, CamelFileRelativePath=data.html}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.html]]]
+2019-05-29 16:15:32,836 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135731396-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.json, CamelFileLastModified=1559135454054, CamelFileLength=31, CamelFileName=data.json, CamelFileNameConsumed=data.json, CamelFileNameOnly=data.json, CamelFileParent=input, CamelFilePath=input\data.json, CamelFileRelativePath=data.json}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.json]]]
+2019-05-29 16:15:32,839 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135731396-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.txt, CamelFileLastModified=1559135406267, CamelFileLength=1, CamelFileName=data.txt, CamelFileNameConsumed=data.txt, CamelFileNameOnly=data.txt, CamelFileParent=input, CamelFilePath=input\data.txt, CamelFileRelativePath=data.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.txt]]]
+2019-05-29 16:15:36,802 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:15:36,802 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:15:36,805 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-05-29 16:15:36,805 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:15:36,816 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.258 seconds
+2019-05-29 16:15:36,817 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-05-29 16:16:50,357 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:16:50,359 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:16:50,479 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:16:50,562 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:16:50,565 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:16:50,565 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:16:50,601 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input?noop=true
+2019-05-29 16:16:50,609 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:16:50,611 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.254 seconds
+2019-05-29 16:16:51,621 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135810191-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.html, CamelFileLastModified=1559135395297, CamelFileLength=446, CamelFileName=data.html, CamelFileNameConsumed=data.html, CamelFileNameOnly=data.html, CamelFileParent=input, CamelFilePath=input\data.html, CamelFileRelativePath=data.html}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.html]]]
+2019-05-29 16:16:51,638 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135810191-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.json, CamelFileLastModified=1559135454054, CamelFileLength=31, CamelFileName=data.json, CamelFileNameConsumed=data.json, CamelFileNameOnly=data.json, CamelFileParent=input, CamelFilePath=input\data.json, CamelFileRelativePath=data.json}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.json]]]
+2019-05-29 16:16:51,641 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135810191-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.txt, CamelFileLastModified=1559135406267, CamelFileLength=1, CamelFileName=data.txt, CamelFileNameConsumed=data.txt, CamelFileNameOnly=data.txt, CamelFileParent=input, CamelFilePath=input\data.txt, CamelFileRelativePath=data.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.txt]]]
+2019-05-29 16:16:55,612 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:16:55,612 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:16:55,615 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-05-29 16:16:55,615 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:16:55,627 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.272 seconds
+2019-05-29 16:16:55,628 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2019-05-29 16:17:15,578 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:17:15,580 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:17:15,698 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:17:15,780 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:17:15,783 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:17:15,783 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:17:15,830 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input?noop=true
+2019-05-29 16:17:15,830 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:17:15,832 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.254 seconds
+2019-05-29 16:17:16,843 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135835413-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.html, CamelFileLastModified=1559135395297, CamelFileLength=446, CamelFileName=data.html, CamelFileNameConsumed=data.html, CamelFileNameOnly=data.html, CamelFileParent=input, CamelFilePath=input\data.html, CamelFileRelativePath=data.html}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.html]]]
+2019-05-29 16:17:16,859 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135835413-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.json, CamelFileLastModified=1559135454054, CamelFileLength=31, CamelFileName=data.json, CamelFileNameConsumed=data.json, CamelFileNameOnly=data.json, CamelFileParent=input, CamelFilePath=input\data.json, CamelFileRelativePath=data.json}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.json]]]
+2019-05-29 16:17:16,863 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135835413-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.log, CamelFileLastModified=1559135830847, CamelFileLength=1, CamelFileName=data.log, CamelFileNameConsumed=data.log, CamelFileNameOnly=data.log, CamelFileParent=input, CamelFilePath=input\data.log, CamelFileRelativePath=data.log}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.log]]]
+2019-05-29 16:17:16,866 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135835413-0-4, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.txt, CamelFileLastModified=1559135406267, CamelFileLength=1, CamelFileName=data.txt, CamelFileNameConsumed=data.txt, CamelFileNameOnly=data.txt, CamelFileParent=input, CamelFilePath=input\data.txt, CamelFileRelativePath=data.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.txt]]]
+2019-05-29 16:17:20,833 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:17:20,833 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:17:20,836 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-05-29 16:17:20,837 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:17:20,848 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.272 seconds
+2019-05-29 16:17:20,848 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-05-29 16:18:34,922 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:18:34,924 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:18:35,042 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:18:35,124 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:18:35,127 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:18:35,127 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:18:35,171 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input?noop=true
+2019-05-29 16:18:35,171 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:18:35,173 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.251 seconds
+2019-05-29 16:18:36,183 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135914753-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.html, CamelFileLastModified=1559135395297, CamelFileLength=446, CamelFileName=data.html, CamelFileNameConsumed=data.html, CamelFileNameOnly=data.html, CamelFileParent=input, CamelFilePath=input\data.html, CamelFileRelativePath=data.html}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.html]]]
+2019-05-29 16:18:36,199 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135914753-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.json, CamelFileLastModified=1559135454054, CamelFileLength=31, CamelFileName=data.json, CamelFileNameConsumed=data.json, CamelFileNameOnly=data.json, CamelFileParent=input, CamelFilePath=input\data.json, CamelFileRelativePath=data.json}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.json]]]
+2019-05-29 16:18:36,204 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135914753-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.log, CamelFileLastModified=1559135830847, CamelFileLength=1, CamelFileName=data.log, CamelFileNameConsumed=data.log, CamelFileNameOnly=data.log, CamelFileParent=input, CamelFilePath=input\data.log, CamelFileRelativePath=data.log}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.log]]]
+2019-05-29 16:18:36,208 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DProkopiuk-W10-1559135914753-0-4, CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\dprokopiuk\Documents\NetBeansProjects\enterprise-integration-patterns\input\data.txt, CamelFileLastModified=1559135406267, CamelFileLength=1, CamelFileName=data.txt, CamelFileNameConsumed=data.txt, CamelFileNameOnly=data.txt, CamelFileParent=input, CamelFilePath=input\data.txt, CamelFileRelativePath=data.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[data.txt]]]
+2019-05-29 16:18:40,174 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:18:40,174 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:18:40,178 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-05-29 16:18:40,180 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:18:40,191 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.271 seconds
+2019-05-29 16:18:40,191 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2019-05-29 16:55:32,152 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 16:55:32,154 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 16:55:32,267 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 16:55:32,333 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 16:55:32,336 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 16:55:32,336 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 16:55:32,365 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/multicast?noop=true
+2019-05-29 16:55:32,366 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 16:55:32,368 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.216 seconds
+2019-05-29 16:55:37,368 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 16:55:37,368 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 16:55:37,371 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/multicast?noop=true
+2019-05-29 16:55:37,371 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 16:55:37,392 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.242 seconds
+2019-05-29 16:55:37,392 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2019-05-29 17:02:10,993 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:02:10,995 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:02:11,114 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:02:11,183 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:02:11,186 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:02:11,186 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:02:11,218 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/multicast?noop=true
+2019-05-29 17:02:11,218 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:02:11,220 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.228 seconds
+2019-05-29 17:02:16,221 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:02:16,222 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:02:16,225 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/multicast?noop=true
+2019-05-29 17:02:16,225 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:02:16,237 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.247 seconds
+2019-05-29 17:02:16,238 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2019-05-29 17:25:18,183 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:25:18,185 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:25:18,313 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:25:18,400 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:25:18,403 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:25:18,403 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:25:18,435 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://xmlinput?noop=true
+2019-05-29 17:25:18,436 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:25:18,437 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.255 seconds
+2019-05-29 17:25:19,450 | INFO | XPathBuilder.java 1295 | Created default XPathFactory org.apache.xpath.jaxp.XPathFactoryImpl@99bf2c7
+2019-05-29 17:25:19,549 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-2 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-1). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [       103]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [       101]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:19,552 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:19,557 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-4 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-3). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:19,558 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:20,063 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-6 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-5). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:20,063 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:20,066 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-8 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-7). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:20,067 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:20,571 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-10 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-9). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:20,571 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:20,576 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-12 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-11). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:20,576 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:21,080 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-14 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-13). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:21,081 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:21,084 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-16 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-15). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:21,084 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:21,588 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-18 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-17). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:21,588 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:21,591 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-20 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-19). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:21,591 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:22,096 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-22 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-21). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:22,096 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:22,101 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-24 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-23). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:22,102 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:22,605 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-26 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-25). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:22,605 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:22,609 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-28 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-27). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         2]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:22,609 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:23,113 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-30 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-29). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         1]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:23,113 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee1.xml]
+2019-05-29 17:25:23,116 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DProkopiuk-W10-1559139918003-0-32 on ExchangeId: ID-DProkopiuk-W10-1559139918003-0-31). Exhausted after delivery attempt: 1 caught: org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://xmlinput?noop=true                                                     ] [         2]
+[route1            ] [setHeader1        ] [setHeader[type]                                                               ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.TypeConversionException: Error during type conversion from type: java.lang.String to the required type: org.w3c.dom.Document with value [Body is instance of java.io.InputStream] due org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.createTypeConversionException(BaseTypeConverterRegistry.java:667)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:158)
+	at org.apache.camel.builder.xml.XPathBuilder.doGetDocument(XPathBuilder.java:1191)
+	at org.apache.camel.builder.xml.XPathBuilder.getDocument(XPathBuilder.java:1170)
+	at org.apache.camel.builder.xml.XPathBuilder.doInEvaluateAs(XPathBuilder.java:941)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluateAs(XPathBuilder.java:838)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:808)
+	at org.apache.camel.builder.xml.XPathBuilder.evaluate(XPathBuilder.java:169)
+	at org.apache.camel.processor.SetHeaderProcessor.process(SetHeaderProcessor.java:52)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:219)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:183)
+	at org.apache.camel.impl.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:174)
+	at org.apache.camel.impl.ScheduledPollConsumer.run(ScheduledPollConsumer.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.camel.RuntimeCamelException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.camel.util.ObjectHelper.wrapRuntimeCamelException(ObjectHelper.java:1831)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1410)
+	at org.apache.camel.impl.converter.InstanceMethodTypeConverter.convertTo(InstanceMethodTypeConverter.java:79)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.doConvertTo(BaseTypeConverterRegistry.java:326)
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.convertTo(BaseTypeConverterRegistry.java:141)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 36; Element type "xml" must be followed by either attribute specifications, ">" or "/>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.apache.camel.converter.jaxp.XmlConverter.toDOMDocument(XmlConverter.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.util.ObjectHelper.invokeMethod(ObjectHelper.java:1406)
+	... 27 more
+2019-05-29 17:25:23,116 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@671b09ec for file: GenericFile[employee2.xml]
+2019-05-29 17:25:23,438 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:25:23,438 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:25:23,441 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://xmlinput?noop=true
+2019-05-29 17:25:23,441 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:25:23,452 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.271 seconds
+2019-05-29 17:25:23,452 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2019-05-29 17:27:00,159 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:27:00,161 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:27:00,274 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:27:00,350 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:27:00,353 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:27:00,353 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:27:00,382 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:00,383 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:27:00,384 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.227 seconds
+2019-05-29 17:27:01,396 | INFO | XPathBuilder.java 1295 | Created default XPathFactory org.apache.xpath.jaxp.XPathFactoryImpl@6c1a85b4
+2019-05-29 17:27:05,385 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:27:05,385 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:27:05,390 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:05,390 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:27:05,401 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.245 seconds
+2019-05-29 17:27:05,401 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2019-05-29 17:27:17,344 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:27:17,346 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:27:17,460 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:27:17,534 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:27:17,536 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:27:17,536 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:27:17,566 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:17,566 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:27:17,568 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.224 seconds
+2019-05-29 17:27:18,579 | INFO | XPathBuilder.java 1295 | Created default XPathFactory org.apache.xpath.jaxp.XPathFactoryImpl@5452d9b2
+2019-05-29 17:27:22,569 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:27:22,569 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:27:22,574 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:22,574 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:27:22,585 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.243 seconds
+2019-05-29 17:27:22,585 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2019-05-29 17:27:52,967 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:27:52,970 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:27:53,087 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:27:53,165 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:27:53,167 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:27:53,168 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:27:53,198 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:53,198 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:27:53,200 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.233 seconds
+2019-05-29 17:27:54,212 | INFO | XPathBuilder.java 1295 | Created default XPathFactory org.apache.xpath.jaxp.XPathFactoryImpl@7963238a
+2019-05-29 17:27:58,201 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:27:58,201 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:27:58,205 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://xmlinput?noop=true
+2019-05-29 17:27:58,205 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:27:58,219 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.253 seconds
+2019-05-29 17:27:58,219 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2019-05-29 17:35:06,700 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:35:06,702 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:35:06,819 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:35:06,900 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:35:06,903 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:35:06,903 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:35:06,931 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/wiretap?noop=true
+2019-05-29 17:35:06,932 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:35:06,934 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.234 seconds
+2019-05-29 17:35:11,935 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:35:11,935 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:35:11,937 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/wiretap?noop=true
+2019-05-29 17:35:11,938 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:35:11,958 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.260 seconds
+2019-05-29 17:35:11,958 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2019-05-29 17:35:42,675 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:35:42,677 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:35:42,794 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:35:42,872 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:35:42,875 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:35:42,875 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:35:42,902 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/wiretap?noop=true
+2019-05-29 17:35:42,903 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:35:42,904 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.230 seconds
+2019-05-29 17:35:47,905 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:35:47,905 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:35:47,914 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/wiretap?noop=true
+2019-05-29 17:35:47,914 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:35:47,928 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.255 seconds
+2019-05-29 17:35:47,928 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2019-05-29 17:36:03,056 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:36:03,058 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:36:03,171 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:36:03,241 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:36:03,244 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:36:03,244 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:36:03,273 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/wiretap?noop=true
+2019-05-29 17:36:03,273 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:36:03,275 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.220 seconds
+2019-05-29 17:36:15,684 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:36:15,687 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:36:15,800 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:36:15,868 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:36:15,871 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:36:15,871 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:36:15,897 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/wiretap?noop=true
+2019-05-29 17:36:15,897 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:36:15,899 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.215 seconds
+2019-05-29 17:36:20,899 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:36:20,900 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:36:20,904 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/wiretap?noop=true
+2019-05-29 17:36:20,904 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:36:20,918 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.235 seconds
+2019-05-29 17:36:20,918 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2019-05-29 17:36:30,760 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-05-29 17:36:30,762 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2019-05-29 17:36:30,877 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2019-05-29 17:36:30,945 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-05-29 17:36:30,947 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-05-29 17:36:30,948 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2019-05-29 17:36:30,976 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://input/wiretap?noop=true
+2019-05-29 17:36:30,976 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2019-05-29 17:36:30,978 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.218 seconds
+2019-05-29 17:36:35,979 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-05-29 17:36:35,980 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-05-29 17:36:35,984 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://input/wiretap?noop=true
+2019-05-29 17:36:35,984 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-05-29 17:36:36,005 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.247 seconds
+2019-05-29 17:36:36,006 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.026 seconds

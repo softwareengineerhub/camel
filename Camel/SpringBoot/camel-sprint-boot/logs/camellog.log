@@ -1,0 +1,38 @@
+10-07-2019 15:52:53.522 [main] INFO  com.mycompany.camel.sprint.boot.App.logStarting - Starting App on DProkopiuk-W10 with PID 2120 (C:\Users\dprokopiuk\Documents\NetBeansProjects\camel-sprint-boot\target\classes started by dprokopiuk in C:\Users\dprokopiuk\Documents\NetBeansProjects\camel-sprint-boot)
+10-07-2019 15:52:53.524 [main] INFO  com.mycompany.camel.sprint.boot.App.logStartupProfileInfo - The following profiles are active: dev
+10-07-2019 15:52:53.552 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Wed Jul 10 15:52:53 EEST 2019]; root of context hierarchy
+10-07-2019 15:52:53.719 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.6.Final
+10-07-2019 15:52:54.281 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d2471c19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10-07-2019 15:52:54.573 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+10-07-2019 15:52:54.580 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2019 15:52:54.580 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.23
+10-07-2019 15:52:54.650 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2019 15:52:54.650 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+10-07-2019 15:52:54.756 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+10-07-2019 15:52:54.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+10-07-2019 15:52:54.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10-07-2019 15:52:54.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10-07-2019 15:52:54.759 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+10-07-2019 15:52:54.970 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Wed Jul 10 15:52:53 EEST 2019]; root of context hierarchy
+10-07-2019 15:52:55.016 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10-07-2019 15:52:55.018 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10-07-2019 15:52:55.036 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10-07-2019 15:52:55.037 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10-07-2019 15:52:55.060 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10-07-2019 15:52:55.206 [main] WARN  o.a.c.i.DefaultCamelBeanPostProcessor.postProcessBeforeInitialization - No CamelContext defined yet so cannot inject into bean: routesHealthCheckRepository
+10-07-2019 15:52:55.338 [main] INFO  o.a.c.i.c.DefaultTypeConverter.doStart - Type converters loaded (core: 192, classpath: 1)
+10-07-2019 15:52:55.675 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+10-07-2019 15:52:55.709 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRoutes - Loading additional Camel XML routes from: classpath:camel/*.xml
+10-07-2019 15:52:55.710 [main] INFO  o.a.c.spring.boot.RoutesCollector.loadXmlRests - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+10-07-2019 15:52:55.714 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+10-07-2019 15:52:55.715 [main] INFO  o.a.c.m.ManagedManagementStrategy.doStart - JMX is enabled
+10-07-2019 15:52:55.839 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+10-07-2019 15:52:55.868 [main] INFO  o.a.camel.spring.SpringCamelContext.doStartOrResumeRouteConsumers - Route: route1 started and consuming from: timer://hello?period=10s
+10-07-2019 15:52:55.869 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Total 1 routes, of which 1 are started
+10-07-2019 15:52:55.870 [main] INFO  o.a.camel.spring.SpringCamelContext.start - Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.155 seconds
+10-07-2019 15:52:55.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+10-07-2019 15:52:55.880 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+10-07-2019 15:52:55.893 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+10-07-2019 15:52:55.909 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+10-07-2019 15:52:55.912 [main] INFO  com.mycompany.camel.sprint.boot.App.logStarted - Started App in 2.617 seconds (JVM running for 2.953)
+10-07-2019 15:52:56.874 [Camel (camel-1) thread #1 - timer://hello] INFO  route1.log - Timer Invoked and the body DEV Environment

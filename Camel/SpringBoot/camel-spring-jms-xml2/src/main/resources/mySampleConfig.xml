@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+    <bean id="testBean" class="com.javacodegeeks.camel.TestBean"/>   
+    
+    <!--<bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
+        <property name="connectionFactory">
+            <bean class="org.apache.activemq.ActiveMQConnectionFactory">
+                <property name="brokerURL" value="vm://localhost?broker.persistent=false&amp;broker.useJmx=false"/>
+            </bean>
+        </property>
+    </bean>-->
+    
+    
+    <bean id="jmsPooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory" init-method="start" destroy-method="stop" >
+        <property name="maxConnections" value="20" />
+        <property name="connectionFactory" ref="jmsConnectionFactory" />  		
+    </bean>
+            	
+   <bean id="orderDefaultJmsListenerContainerFactory" class="org.springframework.jms.config.DefaultJmsListenerContainerFactory"> 
+        <property name="connectionFactory" ref="jmsConnectionFactory"/>     
+        <property name="concurrency" value="3-10"/>        
+        <property name="backOff" ref="myFixedBackOff" />        
+    </bean>
+    
+    <bean id="myFixedBackOff" class="org.springframework.util.backoff.FixedBackOff">
+        
+    </bean>
+    
+        
+    
+        
+    <bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+         <property name="brokerURL" value="tcp://localhost:61616"/>
+        <!--<property name="brokerURL" value="vm://localhost?broker.persistent=false" />-->
+    </bean>    
+    
+    
+    
+        
+    <!--
+    <bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616" />
+        <property name="userName" value="admin" />
+        <property name="password" value="admin" />
+        <property name="redeliveryPolicy">
+            <bean class="org.apache.activemq.RedeliveryPolicy">
+                <property name="maximumRedeliveries" value="-1" />
+                <property name="initialRedeliveryDelay" value="2000" />
+                <property name="redeliveryDelay" value="60000" />
+                <property name="useExponentialBackOff" value="false"/>
+            </bean>
+        </property>	    
+    </bean>
+    -->
+ 
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="jmsPooledConnectionFactory" />
+    </bean>
+ 
+    <bean id="activeMqRouteBuilder" class="com.javacodegeeks.camel.routes.ActiveMqRouteBuilder"/>
+     
+    <camelContext xmlns="http://camel.apache.org/schema/spring"> 
+        <routeBuilder ref="activeMqRouteBuilder"/>         
+    </camelContext>
+ 
+</beans>

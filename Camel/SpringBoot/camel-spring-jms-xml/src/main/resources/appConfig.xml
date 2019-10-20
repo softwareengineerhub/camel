@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+">
+
+    <bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
+        <property name="connectionFactory">
+            <bean class="org.apache.activemq.ActiveMQConnectionFactory">
+                <property name="brokerURL" value="vm://localhost?broker.persistent=false&amp;broker.useJmx=false"/>
+            </bean>
+        </property>
+    </bean>
+    
+    
+        <bean id="jmsPooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory" init-method="start" destroy-method="stop" >
+  		<property name="maxConnections" value="20" />
+  		<property name="connectionFactory" ref="jmsConnectionFactory" />  		
+	</bean> 
+	
+	<bean id="jmsConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+	    <property name="brokerURL" value="tcp://localhost:61616" />
+            <property name="userName" value="admin" />
+            <property name="password" value="admin" />
+	    <property name="redeliveryPolicy">
+	        <bean class="org.apache.activemq.RedeliveryPolicy">
+	            <property name="maximumRedeliveries" value="-1" />
+	            <property name="initialRedeliveryDelay" value="2000" />
+	            <property name="redeliveryDelay" value="60000" />
+	            <property name="useExponentialBackOff" value="false"/>
+	        </bean>
+	    </property>	    
+	</bean>
+    
+        
+</beans>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp:discussionForumHome  xmlns="http://www.markit.com/processing/mcp/core/normalised/trade/events" xmlns:mcp="http://www.markit.com/processing/mcp/core/normalised/messaging/envelope">
+    <mcp:messageBoard id="11" name="App1"/>
+    <mcp:messageBoard id="21" name="App2"/>
+    <mcp:messageBoard id="31" name="App3"/>
+</mcp:discussionForumHome>

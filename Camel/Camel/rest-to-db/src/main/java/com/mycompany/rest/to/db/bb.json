@@ -1,0 +1,221 @@
+{
+    "MCPMsgEnvelope": {
+        "body": {
+            "eventSide": [{
+                    "sourceSchemaVersion": "OTC_Matching_11-0",
+                    "schemaVersion": 1,
+                    "rawPersistenceId": "3895950",
+                    "rawFpMLMessageId": "WEB-UP-TAT02-Prince Singala",
+                    "rawOriginatorId": "00002222",
+                    "assetClass": "Credit",
+                    "productType": "CreditDefaultSwapShort",
+                    "subProductType": "CDSSingleName",
+                    "businessEvent": "Trade",
+                    "activity": "New",
+                    "serviceName": "Confirmation",
+                    "version": 0,
+                    "submissionDateTime": "2019-05-30T12:07:35.922Z",
+                    "businessService": "BilateralConfirmation",
+                    "rmDetail": {
+                        "routeHist": {
+                            "route": [{
+                                    "routeAddress": "www.requestoraddress.com",
+                                    "receiveTime": "2017-03-07T23:13:41.000-05:00",
+                                    "releaseTime": "2017-03-07T23:13:41.000-05:00"
+                                }]
+                        }
+                    },
+                    "workflowDetail": {
+                        "wfcomment": "Buyer Comment",
+                        "superId": "Buyer Super Id",
+                        "deskId": "Buyer Desk",
+                        "eTradeId": "Buyer E-trade Id",
+                        "designatedParty": "Buyer DP ID",
+                        "brokerName": "Buyer Broker",
+                        "branchLocation": "London",
+                        "midMarketPrice": {
+                            "midMarketPriceType": "Price",
+                            "amount": 123
+                        }
+                    },
+                    "creditDefaultSwapEconomicDetail": {
+                        "tradeDate": "2016-07-11",
+                        "effectiveDate": "2016-07-12",
+                        "scheduledTerminationDate": "2021-06-20",
+                        "buyer": "00002222",
+                        "seller": "00006666",
+                        "additionalTerm1": "Additional Terms",
+                        "independentAmountPaymentPercent": 0.0111,
+                        "independentAmountPayer": "00002222",
+                        "independentAmountReceiver": "00006666",
+                        "referenceInformationDetail": {
+                            "red6": "4B818G",
+                            "referenceName": "JAPAN",
+                            "referenceType": "Bond",
+                            "isin": "JP1200551248"
+                        },
+                        "feeLegDetail": {
+                            "singlePaymentDetail": {
+                                "paymentAmount": 222,
+                                "paymentCurrency": "USD",
+                                "paymentDate": "2016-07-14",
+                                "paymentPayer": "00006666",
+                                "paymentReceiver": "00002222"
+                            },
+                            "fixedPeriodicPaymentDetail": {
+                                "paymentFrequencyMonths": 3,
+                                "firstPeriodStartDate": "2016-06-20",
+                                "firstPaymentDate": "2016-09-20",
+                                "rollConvention": "20",
+                                "fixedRatePerAnnum": 0.01,
+                                "paymentPayer": "00002222",
+                                "paymentReceiver": "00006666"
+                            }
+                        },
+                        "protectionTermsDetail": {
+                            "notionalAmount": 10000000,
+                            "notionalCurrency": "USD",
+                            "restructuringEvents": true,
+                            "obligationsCategory": "Bond"
+                        }
+                    },
+                    "clearingDetail": {
+                        "clearingStatus": "false"
+                    },
+                    "interestedParty": [{
+                            "role": "Party",
+                            "referenceId": "00002222",
+                            "internalId": "mETSTLEA00002222",
+                            "partyName": "The Depository Trust & Clearing Corporation",
+                            "partyId": [{
+                                    "id": "00002222",
+                                    "partyIdType": "DtccID"
+                                }, {
+                                    "id": "MLDY5N6PZ58ZE60QU102",
+                                    "partyIdType": "LEI"
+                                },
+                                {
+                                    "id": "4B818G",
+                                    "partyIdType": "RED6"
+                                }],
+                            "tradeId": [{
+                                    "id": "DP_7BA8B86AD2534C938F7E2BE5723A133E2",
+                                    "tradeIdType": "TradeReferenceNumber"
+                                }, {
+                                    "id": "DP_7BA8B86AD2534C938F7E2BE5723A133E2",
+                                    "tradeIdType": "EventProcessingId"
+                                }, {
+                                    "id": "Credit:SingleName:Corporate:StandardAustraliaCorporate",
+                                    "tradeIdType": "ProductId",
+                                    "prefix": "ISDA"
+                                }]
+                        },
+                        {
+                            "role": "Counterparty",
+                            "referenceId": "00006666",
+                            "internalId": "mETSTLEA00006666",
+                            "partyName": "IHS Markit Test Entity 035",
+                            "partyId": [{
+                                    "id": "00006666",
+                                    "partyIdType": "DtccID"
+                                }, {
+                                    "id": "IHSMSERVLEID00006693",
+                                    "partyIdType": "LEI"
+                                },
+                                {
+                                    "id": "4B818G",
+                                    "partyIdType": "RED6"
+                                }]
+                        }, {
+                            "role": "Originator",
+                            "referenceId": "00002222",
+                            "internalId": "mETSTLEA00002222",
+                            "partyName": "The Depository Trust & Clearing Corporation",
+                            "partyId": [{
+                                    "id": "00002222",
+                                    "partyIdType": "DtccID"
+                                }]
+                        },
+                        {
+                            "role": "Submitter",
+                            "partyId": [{
+                                    "id": "crda.system.user",
+                                    "partyIdType": "MQ"
+                                }]
+                        },
+                        {
+                            "role": "ExecutionVenue",
+                            "partyId": [{
+                                    "id": "OffFacility",
+                                    "partyIdType": "ExecutionVenueType"
+                                }]
+                        }],
+                    "error": null,
+                    "creditLegalConfirmationDetail": {
+                        "contractualDefinitions": "ISDA2003Credit",
+                        "calculationAgentBusinessCenter": "GBLO",
+                        "documentationType": "MasterConfirmation",
+                        "masterDocumentationTransactionType": "ISDA2003StandardCreditAustraliaNewZealand",
+                        "masterDocumentationDate": "2004-05-29",
+                        "masterConfirmationType": "ISDA2003StandardCreditAustraliaNewZealand",
+                        "masterConfirmationDate": "2004-05-29"
+                    },
+                    "regulatoryDetail": {
+                        "reportingCommon": {
+                            "compression": false,
+                            "intragroup": false,
+                            "tradingCapacity": "Principal",
+                            "offPlatformVerification": "Electronic"
+                        },
+                        "regimes": {},
+                        "reportingInterestedParty": [{
+                                "meta": {
+                                    "mapped": null,
+                                    "unmapped": null,
+                                    "actions": [{
+                                            "property": "location",
+                                            "type": "ERASE"
+                                        }]
+                                },
+                                "role": "Trader",
+                                "partyName": "SMITH"
+                            },
+                            {
+                                "role": "Beneficiary"
+                            }, {
+                                "role": "SalesTrader",
+                                "partyName": "JONES",
+                                "partyId": [{
+                                        "id": "Jones",
+                                        "partyIdType": "Internal"
+                                    }]
+                            },
+                            {
+                                "role": "SubmittedBy",
+                                "partyId": [{
+                                        "id": "MLDY5N6PZ58ZE60QU102",
+                                        "partyIdType": "LEI"
+                                    }]
+                            },
+                            {
+                                "role": "ExecutionAgent",
+                                "partyId": [{
+                                        "id": "QABank1LEM01_L8",
+                                        "partyIdType": "LEI"
+                                    }]
+                            }]
+                    }
+                }]
+        },
+        "header": {
+            "mcpBodyContentType": "EventSide",
+            "mcpBodyContentVersion": 1,
+            "meta": {
+                "fpmlMessageCreationTimestamp": "2017-03-07T23:13:41.000-05:00",
+                "rawInPersistenceId": "3895950",
+                "submittedRegimes": null,
+                "mQEntryLabel": "A4.d3confirms.IN.SL1"
+            }
+        }
+    }
+}
