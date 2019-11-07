@@ -17,5 +17,11 @@
             <artifactId>weld-se-core</artifactId>
             <version>3.0.1.Final</version>            
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13-beta-3</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
