@@ -72,3 +72,6 @@
 /Camel/SpringBoot/jms-to-db/target
 /Camel/SpringBoot/jms-to-db/camel.log
 /Camel/SpringBoot/my-xslt-app/target
+/Gradle/my-cdi-gradle/.idea
+/Gradle/my-camle-gradle/.idea
+/BDD/bdd-trash/target
